@@ -1,2 +1,2 @@
-# Leet Code
+# HackeRank
 Daily Problem solving
