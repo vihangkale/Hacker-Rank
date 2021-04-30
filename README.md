@@ -1,2 +1,2 @@
-# HackeRank
+# HackerRank
 Daily Problem solving
