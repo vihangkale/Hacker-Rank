@@ -1,0 +1,23 @@
+function diagonalDifference(arr) {
+    // Write your code here
+    let sum1 = 0;
+    let sum2 = 0;
+    let n = arr.length;
+    for(let i = 0; i<n; i++) {
+        for(let j = 0; j< n; j++) {
+            if(i === j) {    // first diagonal
+                sum1 += arr[i][j]; //sum of the first diagonal elements where i = j 
+            } 
+            
+            if(i + j === n - 1) { //second diagonal: sum of 1st and 2nd index = length of matrix - 1      
+                sum2 += arr[i][j];        
+            }        
+    
+   
+        }
+    }
+                
+    return Math.abs(sum1 - sum2);
+            
+
+}
